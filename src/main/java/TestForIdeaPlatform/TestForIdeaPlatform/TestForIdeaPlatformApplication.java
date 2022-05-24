@@ -29,6 +29,7 @@ public class TestForIdeaPlatformApplication {
         hours = percentile / 60;
         minutes = percentile % 60;
         System.out.println("hours:" + hours + "\nminutes:" + minutes);
+        ;
     }
 
     private static List<Long> getAllFlightTimesInMinutes(TicketList ticketList) throws ParseException {
